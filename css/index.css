@@ -216,9 +216,69 @@ p{
 
 
 @media screen and (max-width: 800px) {
-  body {
-    background-color: lightgreen;
+  .top {
+	  display: flex;
+	  flex-direction: column-reverse;
   }
+  
+  .logo {
+	  width: 180px;
+	  height: 35px;
+	  margin-top: 20px;
+  }
+  
+  nav a {
+	  padding: 35px;
+	  font-size: 18px;
+  }
+  
+  .eyecatch {
+	  display: none;
+  }
+  
+  .left {
+	  margin-left: 120px;
+  }
+  
+  h1 {
+	  font-size: 75px;
+	  transform: scale(1, 0.9);
+	  line-height: 60px;
+  }
+  
+  button {
+	  margin-top: 45px;
+	  width: 175px;
+	  height: 35px;
+	  font-size: 18px;
+  }
+  
+  hr{
+	  margin: 50px 0px 0px 0px;
+	  width: 750px;
+  }
+  
+  .upper-left {
+	  width: 355px;
+  }
+  
+  .upper-right {
+	  width: 355px;
+  }
+  
+  h2 {
+	  font-size: 18px;
+  }
+  
+  p {
+	  font-size: 18px;
+  }
+  
+  .middle-img {
+	  width: 750px;
+  }
+  
+  
 }
 
 @media screen and (max-width: 500px) {
