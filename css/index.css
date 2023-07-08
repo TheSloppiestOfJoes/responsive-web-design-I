@@ -201,6 +201,9 @@ p{
 .copyright{
   margin-top: 40px;
   width: 1350px;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 20px;
 }
 
 .contact{
@@ -284,7 +287,6 @@ p{
 	  height: 600px;
   }
   
-  
   .lower-left {
 	  width: 229px;
 	  margin-right: 25px;
@@ -299,7 +301,25 @@ p{
 	  width: 229px;
   }
 	  
-  
+  .address{
+	  width: 750px;
+  }
+
+  .copyright{
+	  margin-top: 40px;
+	  width: 750px;
+  }
+
+  .contact{
+	  margin-top: 40px;
+	  width: 750px;
+  }
+
+  .call-email{
+	  margin-top: 15px;
+	  width: 750px;
+  }
+
   
 }
 
