@@ -320,7 +320,6 @@ p{
 	  width: 750px;
   }
 
-  
 }
 
 @media screen and (max-width: 500px) {
@@ -368,4 +367,56 @@ p{
 	  width: 450px;
   }
 
+  .upper-content {
+	  flex-direction: column;
+  }
+
+  .upper-left {
+	  width: 425px;
+  }
+  
+  .upper-right {
+	  width: 425px;
+  }
+
+  .middle-img {
+	  width: 450px;
+  }
+  
+  .lower-content {
+	  flex-direction: column;
+  }
+  
+  .lower-left {
+	  width: 425px;
+	  margin-right: 25px;
+  }
+
+  .lower-middle{
+	  width: 425px;
+	  margin-right: 25px;
+  }
+
+  .lower-right{
+	  width: 425px;
+  }
+  
+  .address{
+	  width: 450px;
+  }
+
+  .copyright{
+	  margin-top: 40px;
+	  width: 450px;
+  }
+
+  .contact{
+	  margin-top: 40px;
+	  width: 450px;
+  }
+
+  .call-email{
+	  margin-top: 15px;
+	  width: 450px;
+  }
 }
